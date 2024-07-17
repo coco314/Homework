@@ -9,12 +9,13 @@ console.log(typeof numberOfToppings);
 console.log(pizzaPlace);
 console.log(numberOfToppings);
 //Print a template literal that uses both variables to construct a short sentence about your Pizza Place.
-console.log(`"Hello, this is ${pizzaPlace}, and we have ${numberOfToppings}. How can we help you today?"`);
+console.log(`Hello, this is ${pizzaPlace}, and we have ${numberOfToppings} toppings to to choose from
+  . How can we help you today?`);
 
 //Construct an if statement that prints "." if you offer less than 10 toppings, or "A whole lot of pizza." if you offer 10 or more toppings.
 
 if (numberOfToppings < 10) {
-console.log("Quality, not quantity.");
+  console.log("Quality, not quantity.");
 } else {
-console.log("A whole lot of pizza.");
+  console.log("A whole lot of pizza.");
 }
