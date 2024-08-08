@@ -355,3 +355,8 @@
       "error suscipit maxime adipisci consequuntur recusandae\nvoluptas eligendi et est et voluptates\nquia distinctio ab amet quaerat molestiae et vitae\nadipisci impedit sequi nesciunt quis consectetur",
   },
 ];
+//  colors.forEach((item) => console.log(item))
+
+body.array.forEach((element) => {
+  console.log(body);
+});
